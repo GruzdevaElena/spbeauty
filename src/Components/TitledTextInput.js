@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
-const Input = styled.input`
+const Input = styled.caption`
     outline: none;
     border-radius: 0px;
     border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    background: #F8FAFC;
+    color: #94A3B8;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 24px;
+
     &:hover {
         background-color: #D9E2EFB8;
     }
