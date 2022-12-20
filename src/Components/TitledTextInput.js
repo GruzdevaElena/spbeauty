@@ -3,11 +3,11 @@ import styled from "styled-components";
 const Input = styled.caption`
     outline: none;
     border-radius: 0px;
-    border: solid #152842 1px;
+    border:  1px solid #E2E8F0;
     background: #F8FAFC;
     color: #94A3B8;
-    padding: 8px 16px;
-    gap: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 16px;
     border-radius: 24px;
 
     &:hover {
